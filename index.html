@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+		<title>xxx</title>
+		<link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css" />
+		<link rel="stylesheet" href="asset/css/style.css" />
+	</head>
+	<body class="app-as-a-card">
+		<div id="app" class="home-page  animated fadeIn">
+			<div class="swiper-container swiper-container-horizontal">
+		        <!-- Additional required wrapper -->
+		        <div class="swiper-wrapper" >
+		        		<div class="swiper-slide" style="width: 640px;">	
+			            <a href="http://www.eqingdan.com/articles/1354">
+			                <img src="asset/image/1.jpeg" alt="">
+			            </a>
+		        		</div>
+		        		<div class="swiper-slide" style="width: 640px;">	
+			            <a href="http://www.eqingdan.com/articles/1354">
+			                <img src="asset/image/1.jpeg" alt="">
+			            </a>
+		        		</div>
+		        		<div class="swiper-slide" style="width: 640px;">	
+			            <a href="http://www.eqingdan.com/articles/1354">
+			                <img src="asset/image/1.jpeg" alt="">
+			            </a>
+		        		</div>
+		        		<div class="swiper-slide" style="width: 640px;">	
+			            <a href="http://www.eqingdan.com/articles/1354">
+			                <img src="asset/image/1.jpeg" alt="">
+			            </a>
+		        		</div>
+		        		<div class="swiper-slide" style="width: 640px;">	
+			            <a href="http://www.eqingdan.com/articles/1354">
+			                <img src="asset/image/1.jpeg" alt="">
+			            </a>
+		        		</div>
+		        		<div class="swiper-slide" style="width: 640px;">	
+			            <a href="http://www.eqingdan.com/articles/1354">
+			                <img src="asset/image/1.jpeg" alt="">
+			            </a>
+		        		</div>
+		        		<div class="swiper-slide" style="width: 640px;">	
+			            <a href="http://www.eqingdan.com/articles/1354">
+			                <img src="asset/image/1.jpeg" alt="">
+			            </a>
+		        		</div>
+		        </div>
+		        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+	    	    		<span class="slide-dot 0"></span><span class="slide-dot 1"></span><span class="slide-dot 2"></span>
+	    	    		<span class="slide-dot 3"></span><span class="slide-dot 4"></span></div>
+	    		</div>
+		</div>
+		<script type="text/javascript" src="bower_components/swiper/dist/js/swiper.min.js" ></script>
+		<script>
+	        var mySwiper = new Swiper('.swiper-container', {
+	            speed: 400,
+	            autoplay: 2000,
+	            loop: true,
+	            pagination: '.swiper-pagination',
+	            paginationClickable: true,
+	            paginationBulletRender: function (index, className) {
+	                return '<span class="slide-dot '+className+'"></span>';
+	            }
+	        });
+	    </script>
+	</body>
+</html>
